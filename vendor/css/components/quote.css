@@ -1,0 +1,54 @@
+.qoute-section{
+  width: 100%;
+  background-color: #10c9c3;
+  flex-direction: column;
+}
+
+.qoute-section--inner{
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.qoute-section_text{
+  width: 70%;
+  font-size: 18px;
+  font-family: 'Montserrat-Medium';
+  font-weight: 300;
+}
+
+.qoute-section_author{
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+  font-weight: lighter;
+  margin-top: 1em;
+}
+
+.qoute-section_pagination{
+  position: relative;
+  bottom: 1em;
+  display: flex;
+  align-self: center;
+  width: 100px;
+  justify-content: center;
+}
+
+.page1, .page2, .page3{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin-right: 0.5em;
+}
+
+.page1, .page3{
+  width: 8px;
+  height: 8px;
+  background-color: #a7e6e4;
+  border-radius: 10px;
+
+}

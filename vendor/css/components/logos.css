@@ -1,0 +1,15 @@
+.logos-section{
+  width: 100%;
+  display: flex;
+}
+
+.logos-section--inner{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5%;
+}
+
+.logo_item{
+  height: 80px;
+}

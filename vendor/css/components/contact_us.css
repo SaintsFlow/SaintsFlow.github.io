@@ -1,0 +1,66 @@
+.contact_us-section{
+  background-color: #f5f5f5;
+}
+
+.contact_us-section--inner{
+  padding: 5%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_sub{
+  width: 60%;
+}
+
+.contact_us-section_form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form_name_email{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.form-input{
+  background-color: #fff;
+  height: 40px;
+  padding-left: 1em;
+  color: #000;
+  font-family: 'NunitoSans-Regular';
+  font-weight: lighter;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-name, .input-email{
+  width: 45%;
+}
+
+.input-title{
+  margin-bottom: 2em;
+}
+
+.input-area{
+  resize: none;
+  height: 150px;
+}
+
+.form-btn{
+  width: 160px;
+  margin-top: 2em;
+  border: none;
+  color: #fff;
+  background-color: #10c9c3;
+  text-align: center;
+  padding: 13px;
+  font-family: 'Montserrat-Regular';
+  font-size: 15px;
+  font-weight: lighter;
+  align-self: center;
+}

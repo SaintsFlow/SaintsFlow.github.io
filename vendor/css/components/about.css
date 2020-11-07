@@ -1,0 +1,26 @@
+.about-section{
+  margin-top: 5em;
+}
+
+.about-inner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.about-subtitle{
+    font-family: 'NunitoSans-Regular';
+    font-weight: lighter;
+    font-size: 15px;
+    width: 50%;
+    flex-wrap: wrap;
+    color: #969696;
+    line-height: 1.5;
+}
+
+.about-inner > img{
+  width: 200px;
+  height: 60px;
+}

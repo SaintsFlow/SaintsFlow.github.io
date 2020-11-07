@@ -1,0 +1,45 @@
+.stats-section{
+  margin: 0;
+  background-color: #10c9c3;
+  padding: 5%;
+}
+
+.stats-section--inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-section_item{
+  margin-right: 5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stats-section_item--content{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.stats-section_item > img{
+  margin-right: 1em;
+}
+
+.stats-section_item .stats-text1{
+  font-family: 'Montserrat-Regular';
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+
+}
+
+.stats-section_item .stats-text2{
+  font-family: 'Montserrat-Medium';
+  font-size: 10px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}

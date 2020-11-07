@@ -1,0 +1,48 @@
+.footer{
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4%;
+  background-color: #000;
+}
+
+  .footer-menu{
+    list-style: none;
+  }
+  .footer-middle{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-title{
+    font-family: 'Montserrat-Regular';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  .footer-coop{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .footer-text{
+    font-family: 'NunitoSans-Regular';
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-middle{
+  display: flex;
+}
+
+.footer-right{
+  display: flex;
+}
+  .footer-right-1{
+    display: flex;
+  }

@@ -1,0 +1,26 @@
+@import url('./components/main.css');
+@import url('./components/navbar.css');
+@import url('./components/about.css');
+@import url('./components/skills.css');
+@import url('./components/stats.css');
+@import url('./components/portfolio.css');
+@import url('./components/whatwedo-section.css');
+@import url('./components/quote.css');
+@import url('./components/logos.css');
+@import url('./components/contact_us.css');
+@import url('./components/footer.css');
+
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('./fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans-Regular';
+  src: url('./fonts/NunitoSans-Regular.ttf');
+}
