@@ -64,3 +64,20 @@
   font-weight: lighter;
   align-self: center;
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .form_name_email{
+    flex-direction: column;
+  }
+
+  .form-input{
+    width: 100% !important;
+    margin-bottom: 1em;
+  }
+  .contact_sub{
+    width: 100%;
+  }
+
+}

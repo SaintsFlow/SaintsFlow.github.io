@@ -89,3 +89,35 @@ body{
   font-size: 30px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: unset;
+  }
+  .double_container{
+    flex-direction: column-reverse;
+  }
+    .double_container--left_main{
+      width: 80% !important;
+      align-self: center;
+    }
+    .double_container--right_main{
+      width: 100% !important;
+    }
+    .main-btn{
+      align-self: center;
+    }
+    .main-subtitle{
+      width: 66%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .main-img{
+    height: 80% !important;
+    width: inherit !important;
+  }
+  .main-subtitle {
+    width: 100%;
+  }
+}

@@ -7,9 +7,23 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 5%;
+  padding: 2%;
 }
 
 .logo_item{
   height: 80px;
+  width: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logos-section--inner{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .logo_item{
+    margin-bottom: 2em;
+    margin-right: 1em;
+  }
+
 }

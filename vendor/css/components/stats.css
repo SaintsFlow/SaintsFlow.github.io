@@ -43,3 +43,15 @@
   letter-spacing: 1px;
 
 }
+
+@media screen and (max-width: 768px) {
+  .stats-section_item{
+    margin: 0
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .stats-section--inner{
+    flex-wrap: wrap;
+  }
+}
