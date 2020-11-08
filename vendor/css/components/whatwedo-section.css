@@ -32,3 +32,13 @@
   font-family: 'NunitoSans-Regular';
   width: 66%;
 }
+
+@media screen and (max-width: 768px) {
+  .whatwedo-section_item > p{
+    font-size: 13px;
+    width: 100%;
+  }
+  .whatwedo-section_item > span {
+    font-size: 14px; 
+  }
+}
